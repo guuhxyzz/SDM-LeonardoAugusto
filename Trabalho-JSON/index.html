@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end Local com Fetch</title>
+</head>
+
+<body>
+    <h1>Front-end Local</h1>
+
+    <section>
+        <h2>Teste GET</h2>
+        <form id="form-get">
+
+            <input type="text" id="msg-get" placeholder="Digite sua mensagem" required>
+
+            <select id="char-get">
+                <option value="cow" selected>Vaca (padrão)</option>
+                <option value="tux">Tux (pinguim)</option>
+                <option value="dragon">Dragão</option>
+                <option value="daemon">Daemon</option>
+                <option value="ghostbusters">Ghostbusters</option>
+            </select>
+
+            <button type="submit">Enviar GET</button>
+
+        </form>
+        <pre id="output-get"></pre>
+    </section>
+
+    <section>
+        <h2>Teste POST</h2>
+        <form id="form-post">
+
+            <input type="text" id="msg-post" placeholder="Digite sua mensagem" required>
+
+            <select id="char-post">
+                option value="cow" selected>Vaca (padrão)</option>
+                <option value="tux">Tux (pinguim)</option>
+                <option value="dragon">Dragão</option>
+                <option value="daemon">Daemon</option>
+                <option value="ghostbusters">Ghostbusters</option>
+            </select>
+
+            <button type="submit">Enviar POST</button>
+
+        </form>
+        <pre id="output-post"></pre>
+    </section>
+
+    <section>
+        <h2>Histórico</h2>
+
+        <button id="btn-history">Buscar Histórico</button>
+
+        <pre id="output-history"></pre>
+    </section>
+
+    <script src="./app.js" defer></script>
+</body>
+
+</html>
