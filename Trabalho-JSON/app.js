@@ -1,4 +1,4 @@
-const BASE_URL = "5000-firebase-smd-1509-1757975324625.cluster-f73ibkkuije66wssuontdtbx6q.cloudworkstations.dev";
+const BASE_URL = "https://cowsay-api-service-70338534109.us-central1.run.app";
 
 // função para exibir resultado no pre
 function displayResult(outputElement, result) {
