@@ -1,4 +1,4 @@
-const BASE_URL = "https://cowsay-api-service-70338534109.us-central1.run.app";
+const BASE_URL = "https://cowsay-api-service-70338534109.us-central1.run.app/api";
 
 // função para exibir resultado no pre
 function displayResult(outputElement, result) {
@@ -99,15 +99,15 @@ async function handleHistory() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // // TODO: adicionar listener no formulário GET
+    // adicionar listener no formulário GET
     const formGet = document.getElementById('form-get');
     formGet.addEventListener('submit', handleGet);
 
-    // // TODO: adicionar listener no formulário POST
+    // adicionar listener no formulário POST
     const formPost = document.getElementById('form-post');
     formPost.addEventListener('submit', handlePost);
 
-    // // TODO: adicionar listener no botão de histórico
+    // adicionar listener no botão de histórico
     const btnHistory = document.getElementById('btn-history');
     btnHistory.addEventListener('click', handleHistory);
 });
